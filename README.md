@@ -1,66 +1,9 @@
-## Foundry
+# Credentus
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Deployed on Sepolia:
 
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
 ```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
+Deployer: 0x3fCfC113178BDd9C3Ca778e4f80B36F030DE1226
+Deployed to: 0xb2817eB9d059ECfB9da34aD157C72F9860FcEaB6
+Transaction hash: 0xb471531ff30975f9b27a0bde0fa75d0cb12494ddc059b06bf6d9cb5fdd5a3470
 ```
